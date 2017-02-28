@@ -74,4 +74,32 @@ nav ul li {
 .section-2 {
   background-color: white;
   display: flex;
+  padding: 32px 24px;
+  width: 100%;
+}
+
+.section-2 img {
+  width: 100%;
+  height: auto;
+}
+
+.left {
+  width: 50%;
+}
+
+.items {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  width: 100%;
+  padding: 16px;
+}
+
+.item img {
+  width: 150px;
+  height: 150px;
 }
