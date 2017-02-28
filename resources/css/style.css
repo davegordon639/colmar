@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: pink;
+  margin: 0px;
 }
 
 header {
@@ -38,8 +38,40 @@ nav ul {
   margin-right: 20px;
 }
 
+.section-1 {
+  margin-left: 0px;
+  margin-top: 64px;
+  background-color: #ccc;
+  display: flex;
+  justify-content:  space-between;;
+}
+
+.section-1 img {
+  padding: 32px 24px;
+  width: 50%;
+  height: 30%;
+}
+
 nav ul li {
   display: inline-block;
   list-style-type: none;
   margin-right: 1rem;
+}
+
+.headline {
+  margin-top: 15%;
+  display: inline-block;
+  margin-right: 200px;
+}
+
+.button {
+  padding: 8px;
+  background-color: gray;
+  text-align: center;
+  color: white;
+}
+
+.section-2 {
+  background-color: white;
+  display: flex;
 }
