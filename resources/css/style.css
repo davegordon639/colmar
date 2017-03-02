@@ -103,3 +103,32 @@ nav ul li {
   width: 150px;
   height: 150px;
 }
+
+.section-3 {
+  background-color: #ccc;
+}
+
+.section-3 h1 {
+  text-align: center;
+  padding: 32px 32px 15px 32px;
+}
+
+.start-learning-items {
+  display: flex;
+  justify-content: center;
+}
+
+.start-learning-item {
+  background-color: white;
+  width: 350px;
+  margin-right: 32px;
+}
+
+.start-learning-item img {
+  width: 100%;
+  height: auto;
+}
+
+.copy {
+  padding: 16px 16px 24px 16px;
+}
