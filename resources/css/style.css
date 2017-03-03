@@ -4,6 +4,7 @@ html {
 
 body {
   margin: 0px;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -20,6 +21,7 @@ header {
 
 .logo {
   display: flex;
+  align-items: center;
 }
 
 .logo img {
@@ -32,6 +34,7 @@ nav {
   display: flex;
   justify-content: flex-end;
   flex-grow: 1;
+  align-items: center;
 }
 
 nav ul {
@@ -78,6 +81,10 @@ nav ul li {
   width: 100%;
 }
 
+.section-4 {
+  padding-top: 0px;
+}
+
 .section-2 img {
   width: 100%;
   height: auto;
@@ -85,12 +92,14 @@ nav ul li {
 
 .left {
   width: 50%;
+  padding-right: 24px;
 }
 
 .items {
   display: flex;
   width: 50%;
   flex-direction: column;
+  border-left: 2px solid #ccc;
 }
 
 .item {
@@ -108,14 +117,20 @@ nav ul li {
   background-color: #ccc;
 }
 
-.section-3 h1, .thesis {
+.section-3 h1 {
   text-align: center;
   padding: 32px 32px 15px 32px;
+}
+
+.thesis {
+  text-align: center;
+  padding: 15px 32px;
 }
 
 .start-learning-items {
   display: flex;
   justify-content: center;
+  padding-bottom: 32px;
 }
 
 .start-learning-item {
