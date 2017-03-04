@@ -152,6 +152,10 @@ nav ul li {
   padding: 16px 16px 24px 16px;
 }
 
+.footer {
+  margin-left: 24px;
+}
+
 @media (max-width: 480px) {
 
   .desktop {
